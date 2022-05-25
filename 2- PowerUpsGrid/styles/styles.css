@@ -1,0 +1,32 @@
+/* FUNCIONES ESPECIALES */
+.container {
+  display: grid;
+  grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+  grid-template-rows: repeat(3, auto);
+  border: 5px solid #e1bee7;
+}
+
+.item {
+  border: 5px solid violet;
+  font-size: 2rem;
+}
+
+/* KEYWORS */
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 3fr min-content max-content;
+  border: 5px solid violet;
+}
+
+.contenedor-2 {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  border: 5px solid steelblue;
+  margin-top: 10px;
+}
+
+.items {
+  border: 5px solid #e1bee7;
+  font-size: 2rem;
+}
